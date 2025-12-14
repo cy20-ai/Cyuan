@@ -19,17 +19,22 @@ chmod +x  IPFSeq3.0  #为软件加权限
 
 1. 标题栏
 Integrated platform for quantitative sequence alignment (China Yuan)：软件名称，表明其功能是 “定量序列比对集成平台”，括号中 “China Yuan” 可能是开发标识或版本相关信息。
+
 2. 数据输入区（Data Input）
 该区域用于设置分析所需的基础数据和参数：
 Working Directory (Custom): 自定义工作目录输入框，用于指定分析过程中产生的中间文件和结果文件的存储路径。右侧Browse按钮：点击可图形化选择文件夹作为工作目录。
+
 Reference Genome File (.fa/.fasta/.fna): 参考基因组文件输入框，需输入格式为.fa、.fasta 或.fna 的基因组序列文件。右侧Browse按钮：用于选择参考基因组文件。
+
 Fastq.gz file/directory: Fastq 格式测序数据（压缩为.gz）的文件或目录输入框，可输入单个文件路径或包含多个 fastq.gz 文件的目录。右侧Browse按钮：用于选择测序数据文件或目录。
+
 Sequencing Mode: 测序模式选择，包含两个单选按钮：
 Single-end: 单端测序模式，适用于仅一端测序的 reads 数据。
 Paired-end: 双端测序模式，适用于两端都测序的成对 reads 数据。
-Annotation File (.gtf/.gff/.gff3): 注释文件输入框，需输入格式为.gtf、.gff 或.gff3 的基因结构注释文件（用于后续的 reads 计数）。右侧Browse按钮：用于选择注释文件。
-Threads: 线程数设置框，默认值为 8，用于指定分析过程中使用的 CPU 线程数量（数值越大，分析速度可能越快，受限于计算机性能）。
 
+Annotation File (.gtf/.gff/.gff3): 注释文件输入框，需输入格式为.gtf、.gff 或.gff3 的基因结构注释文件（用于后续的 reads 计数）。右侧Browse按钮：用于选择注释文件。
+
+Threads: 线程数设置框，默认值为 8，用于指定分析过程中使用的 CPU 线程数量（数值越大，分析速度可能越快，受限于计算机性能）。
 将需要输入的文件上传完整后选择单双端模式，依次点击功能流程按钮区的按钮即可分析
 
 3. 功能流程按钮区
