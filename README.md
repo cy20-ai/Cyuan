@@ -1,4 +1,5 @@
 在此暂不公布源代码   著作者：Cyuan
+软件以文件的形式，上面可以直接下载
 这是一款用于生物信息学转录组上游一键式分析的软件
 注意适配的系统为Linux
 处理器架构需为x86_64
@@ -8,6 +9,7 @@
 并且需要在你自己的conda中创建属于你的新环境
 在这个新环境中依次下载此软件所需要的依赖和包，python版本最好为3.12
 这些依赖（软件包）包括fastqc、hisat2、samtools、htseq、multiqc
+下载后软件直接自己识别调用
 (hisat2-build version 2.2.1)   (samtools 1.22.1)  htseq-count (2.0.9) (multiqc, version 1.32)
 这是我所使用版本仅供参考已经证实无依赖冲突
 
